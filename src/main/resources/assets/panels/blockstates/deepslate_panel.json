@@ -1,8 +1,14 @@
 {
   "variants": {
-    "face=floor":  { "model": "panels:block/deepslate_panel_floor" },
+    "face=floor,facing=north":  { "model": "panels:block/deepslate_panel_floor" },
+    "face=floor,facing=south":  { "model": "panels:block/deepslate_panel_floor", "y": 180 },
+    "face=floor,facing=east":   { "model": "panels:block/deepslate_panel_floor", "y": 90 },
+    "face=floor,facing=west":   { "model": "panels:block/deepslate_panel_floor", "y": 270 },
 
-    "face=ceiling":{ "model": "panels:block/deepslate_panel_ceiling" },
+    "face=ceiling,facing=north":{ "model": "panels:block/deepslate_panel_ceiling" },
+    "face=ceiling,facing=south":{ "model": "panels:block/deepslate_panel_ceiling", "y": 180 },
+    "face=ceiling,facing=east": { "model": "panels:block/deepslate_panel_ceiling", "y": 90 },
+    "face=ceiling,facing=west": { "model": "panels:block/deepslate_panel_ceiling", "y": 270 },
 
     "face=wall,facing=north":   { "model": "panels:block/deepslate_panel_wall_north" },
     "face=wall,facing=south":   { "model": "panels:block/deepslate_panel_wall_south" },

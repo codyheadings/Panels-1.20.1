@@ -16,13 +16,18 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Panels.MODID);
 
     public static final RegistryObject<CreativeModeTab> PANELS_TAB = CREATIVE_MODE_TABS.register("panels_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ANDESITE_PANEL.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.POLISHED_GRANITE_PANEL.get()))
                     .title(Component.translatable("creativetab.panels_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.ANDESITE_PANEL.get());
                         pOutput.accept(ModBlocks.COBBLESTONE_PANEL.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_PANEL.get());
                         pOutput.accept(ModBlocks.POLISHED_DEEPSLATE_PANEL.get());
+                        pOutput.accept(ModBlocks.POLISHED_DIORITE_PANEL.get());
+                        pOutput.accept(ModBlocks.POLISHED_GRANITE_PANEL.get());
+                        pOutput.accept(ModBlocks.POLISHED_ANDESITE_PANEL.get());
+                        pOutput.accept(ModBlocks.SANDSTONE_PANEL.get());
+                        pOutput.accept(ModBlocks.RED_SANDSTONE_PANEL.get());
 
                     })
                     .build());

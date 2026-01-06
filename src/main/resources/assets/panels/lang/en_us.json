@@ -2,7 +2,12 @@
   "block.panels.andesite_panel": "Andesite Panel",
   "block.panels.deepslate_panel": "Deepslate Panel",
   "block.panels.polished_deepslate_panel": "Polished Deepslate Panel",
+  "block.panels.polished_diorite_panel": "Polished Diorite Panel",
+  "block.panels.polished_granite_panel": "Polished Granite Panel",
+  "block.panels.polished_andesite_panel": "Polished Andesite Panel",
   "block.panels.cobblestone_panel": "Cobblestone Panel",
+  "block.panels.sandstone_panel": "Sandstone Panel",
+  "block.panels.red_sandstone_panel": "Red Sandstone Panel",
 
   "creativetab.panels_tab": "Panels Tab"
 }
