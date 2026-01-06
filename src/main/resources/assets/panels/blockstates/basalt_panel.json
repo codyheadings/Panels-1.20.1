@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "face=floor":  { "model": "panels:block/basalt_panel_floor" },
+
+    "face=ceiling":{ "model": "panels:block/basalt_panel_ceiling" },
+
+    "face=wall,facing=north":   { "model": "panels:block/basalt_panel_wall_north" },
+    "face=wall,facing=south":   { "model": "panels:block/basalt_panel_wall_south" },
+    "face=wall,facing=east":    { "model": "panels:block/basalt_panel_wall_east" },
+    "face=wall,facing=west":    { "model": "panels:block/basalt_panel_wall_west" }
+  }
+}

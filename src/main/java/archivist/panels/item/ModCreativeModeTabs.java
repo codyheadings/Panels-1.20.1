@@ -28,6 +28,9 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.POLISHED_ANDESITE_PANEL.get());
                         pOutput.accept(ModBlocks.SANDSTONE_PANEL.get());
                         pOutput.accept(ModBlocks.RED_SANDSTONE_PANEL.get());
+                        pOutput.accept(ModBlocks.BASALT_PANEL.get());
+                        pOutput.accept(ModBlocks.STONE_PANEL.get());
+                        pOutput.accept(ModBlocks.SMOOTH_STONE_PANEL.get());
 
                     })
                     .build());

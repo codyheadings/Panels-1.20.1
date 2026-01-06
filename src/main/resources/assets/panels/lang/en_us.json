@@ -1,5 +1,6 @@
 {
   "block.panels.andesite_panel": "Andesite Panel",
+  "block.panels.basalt_panel": "Basalt Panel",
   "block.panels.deepslate_panel": "Deepslate Panel",
   "block.panels.polished_deepslate_panel": "Polished Deepslate Panel",
   "block.panels.polished_diorite_panel": "Polished Diorite Panel",
@@ -8,6 +9,8 @@
   "block.panels.cobblestone_panel": "Cobblestone Panel",
   "block.panels.sandstone_panel": "Sandstone Panel",
   "block.panels.red_sandstone_panel": "Red Sandstone Panel",
+  "block.panels.stone_panel": "Stone Panel",
+  "block.panels.smooth_stone_panel": "Smooth Stone Panel",
 
   "creativetab.panels_tab": "Panels Tab"
 }

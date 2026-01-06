@@ -21,6 +21,8 @@ import java.util.function.Supplier;
 
         public static final RegistryObject<Block> ANDESITE_PANEL = registerBlock("andesite_panel",
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)));
+        public static final RegistryObject<Block> BASALT_PANEL = registerBlock("basalt_panel",
+                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_BASALT)));
         public static final RegistryObject<Block> DEEPSLATE_PANEL = registerBlock("deepslate_panel",
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE)));
         public static final RegistryObject<Block> COBBLESTONE_PANEL = registerBlock("cobblestone_panel",
@@ -37,6 +39,10 @@ import java.util.function.Supplier;
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.SANDSTONE)));
         public static final RegistryObject<Block> RED_SANDSTONE_PANEL = registerBlock("red_sandstone_panel",
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.RED_SANDSTONE)));
+        public static final RegistryObject<Block> STONE_PANEL = registerBlock("stone_panel",
+                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+        public static final RegistryObject<Block> SMOOTH_STONE_PANEL = registerBlock("smooth_stone_panel",
+                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE)));
 
 
         private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
