@@ -49,6 +49,16 @@ import java.util.function.Supplier;
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_STONE_BRICKS)));
         public static final RegistryObject<Block> SMOOTH_STONE_PANEL = registerBlock("smooth_stone_panel",
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE)));
+        public static final RegistryObject<Block> TUFF_PANEL = registerBlock("tuff_panel",
+                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)));
+        public static final RegistryObject<Block> CALCITE_PANEL = registerBlock("calcite_panel",
+                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
+        public static final RegistryObject<Block> DIORITE_PANEL = registerBlock("diorite_panel",
+                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)));
+        public static final RegistryObject<Block> DRIPSTONE_PANEL = registerBlock("dripstone_panel",
+                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK)));
+        public static final RegistryObject<Block> ENDSTONE_PANEL = registerBlock("endstone_panel",
+                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)));
 
 
         private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

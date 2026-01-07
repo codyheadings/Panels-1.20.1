@@ -20,20 +20,41 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.panels_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.ANDESITE_PANEL.get());
+                        pOutput.accept(ModBlocks.POLISHED_ANDESITE_PANEL.get());
+                        pOutput.accept(ModBlocks.BASALT_PANEL.get());
+//                        pOutput.accept(ModBlocks.BLACKSTONE_PANEL.get());
+//                        pOutput.accept(ModBlocks.BLACKSTONE_BRICK_PANEL.get());
+//                        pOutput.accept(ModBlocks.POLISHED_BLACKSTONE_PANEL.get());
+                        pOutput.accept(ModBlocks.CALCITE_PANEL.get());
                         pOutput.accept(ModBlocks.COBBLESTONE_PANEL.get());
                         pOutput.accept(ModBlocks.MOSSY_COBBLESTONE_PANEL.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_PANEL.get());
+//                        pOutput.accept(ModBlocks.DEEPSLATE_BRICK_PANEL.get());
                         pOutput.accept(ModBlocks.POLISHED_DEEPSLATE_PANEL.get());
+                        pOutput.accept(ModBlocks.DIORITE_PANEL.get());
                         pOutput.accept(ModBlocks.POLISHED_DIORITE_PANEL.get());
+                        pOutput.accept(ModBlocks.DRIPSTONE_PANEL.get());
+                        pOutput.accept(ModBlocks.ENDSTONE_PANEL.get());
+//                        pOutput.accept(ModBlocks.ENDSTONE_BRICK_PANEL.get());
+//                        pOutput.accept(ModBlocks.GRANITE_PANEL.get());
                         pOutput.accept(ModBlocks.POLISHED_GRANITE_PANEL.get());
-                        pOutput.accept(ModBlocks.POLISHED_ANDESITE_PANEL.get());
                         pOutput.accept(ModBlocks.SANDSTONE_PANEL.get());
                         pOutput.accept(ModBlocks.RED_SANDSTONE_PANEL.get());
-                        pOutput.accept(ModBlocks.BASALT_PANEL.get());
                         pOutput.accept(ModBlocks.STONE_PANEL.get());
                         pOutput.accept(ModBlocks.STONE_BRICK_PANEL.get());
                         pOutput.accept(ModBlocks.MOSSY_STONE_BRICK_PANEL.get());
                         pOutput.accept(ModBlocks.SMOOTH_STONE_PANEL.get());
+                        pOutput.accept(ModBlocks.TUFF_PANEL.get());
+//                        pOutput.accept(ModBlocks.QUARTZ_PANEL.get());
+//                        pOutput.accept(ModBlocks.QUARTZ_BRICK_PANEL.get());
+                        // Ore Blocks:
+//                        pOutput.accept(ModBlocks.AMETHYST_PANEL.get());
+//                        pOutput.accept(ModBlocks.COAL_PANEL.get());
+//                        pOutput.accept(ModBlocks.DIAMOND_PANEL.get());
+//                        pOutput.accept(ModBlocks.EMERALD_PANEL.get());
+//                        pOutput.accept(ModBlocks.GOLD_PANEL.get());
+//                        pOutput.accept(ModBlocks.LAPIS_PANEL.get());
+//                        pOutput.accept(ModBlocks.NETHERITE_PANEL.get());
 
                     })
                     .build());

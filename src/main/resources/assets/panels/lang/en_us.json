@@ -4,6 +4,7 @@
   "block.panels.deepslate_panel": "Deepslate Panel",
   "block.panels.polished_deepslate_panel": "Polished Deepslate Panel",
   "block.panels.polished_diorite_panel": "Polished Diorite Panel",
+  "block.panels.diorite_panel": "Diorite Panel",
   "block.panels.polished_granite_panel": "Polished Granite Panel",
   "block.panels.polished_andesite_panel": "Polished Andesite Panel",
   "block.panels.cobblestone_panel": "Cobblestone Panel",
@@ -14,6 +15,10 @@
   "block.panels.stone_brick_panel": "Stone Brick Panel",
   "block.panels.mossy_stone_brick_panel": "Mossy Stone Brick Panel",
   "block.panels.smooth_stone_panel": "Smooth Stone Panel",
+  "block.panels.tuff_panel": "Tuff Panel",
+  "block.panels.calcite_panel": "Calcite Panel",
+  "block.panels.dripstone_panel": "Dripstone Panel",
+  "block.panels.endstone_panel": "End Stone Panel",
 
-  "creativetab.panels_tab": "Panels Tab"
+  "creativetab.panels_tab": "Panels"
 }
