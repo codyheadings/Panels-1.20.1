@@ -7,9 +7,12 @@
   "block.panels.polished_granite_panel": "Polished Granite Panel",
   "block.panels.polished_andesite_panel": "Polished Andesite Panel",
   "block.panels.cobblestone_panel": "Cobblestone Panel",
+  "block.panels.mossy_cobblestone_panel": "Mossy Cobblestone Panel",
   "block.panels.sandstone_panel": "Sandstone Panel",
   "block.panels.red_sandstone_panel": "Red Sandstone Panel",
   "block.panels.stone_panel": "Stone Panel",
+  "block.panels.stone_brick_panel": "Stone Brick Panel",
+  "block.panels.mossy_stone_brick_panel": "Mossy Stone Brick Panel",
   "block.panels.smooth_stone_panel": "Smooth Stone Panel",
 
   "creativetab.panels_tab": "Panels Tab"

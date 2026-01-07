@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.ANDESITE_PANEL.get());
                         pOutput.accept(ModBlocks.COBBLESTONE_PANEL.get());
+                        pOutput.accept(ModBlocks.MOSSY_COBBLESTONE_PANEL.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_PANEL.get());
                         pOutput.accept(ModBlocks.POLISHED_DEEPSLATE_PANEL.get());
                         pOutput.accept(ModBlocks.POLISHED_DIORITE_PANEL.get());
@@ -30,6 +31,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.RED_SANDSTONE_PANEL.get());
                         pOutput.accept(ModBlocks.BASALT_PANEL.get());
                         pOutput.accept(ModBlocks.STONE_PANEL.get());
+                        pOutput.accept(ModBlocks.STONE_BRICK_PANEL.get());
+                        pOutput.accept(ModBlocks.MOSSY_STONE_BRICK_PANEL.get());
                         pOutput.accept(ModBlocks.SMOOTH_STONE_PANEL.get());
 
                     })

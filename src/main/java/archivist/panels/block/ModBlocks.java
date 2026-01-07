@@ -27,6 +27,8 @@ import java.util.function.Supplier;
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE)));
         public static final RegistryObject<Block> COBBLESTONE_PANEL = registerBlock("cobblestone_panel",
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE)));
+        public static final RegistryObject<Block> MOSSY_COBBLESTONE_PANEL = registerBlock("mossy_cobblestone_panel",
+                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE)));
         public static final RegistryObject<Block> POLISHED_DEEPSLATE_PANEL = registerBlock("polished_deepslate_panel",
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_DEEPSLATE)));
         public static final RegistryObject<Block> POLISHED_DIORITE_PANEL = registerBlock("polished_diorite_panel",
@@ -41,6 +43,10 @@ import java.util.function.Supplier;
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.RED_SANDSTONE)));
         public static final RegistryObject<Block> STONE_PANEL = registerBlock("stone_panel",
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+        public static final RegistryObject<Block> STONE_BRICK_PANEL = registerBlock("stone_brick_panel",
+                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)));
+        public static final RegistryObject<Block> MOSSY_STONE_BRICK_PANEL = registerBlock("mossy_stone_brick_panel",
+                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_STONE_BRICKS)));
         public static final RegistryObject<Block> SMOOTH_STONE_PANEL = registerBlock("smooth_stone_panel",
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE)));
 

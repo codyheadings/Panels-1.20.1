@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "all": "panels:block/mossy_stone_brick_panel",
+    "particle": "panels:block/mossy_stone_brick_panel"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 13],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": { "texture": "#all" },
+        "south": { "texture": "#all" },
+        "east":  { "texture": "#all" },
+        "west":  { "texture": "#all" },
+        "up":    { "texture": "#all" },
+        "down":  { "texture": "#all" }
+      }
+    }
+  ]
+}
