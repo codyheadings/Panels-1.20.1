@@ -71,6 +71,14 @@ import java.util.function.Supplier;
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
         public static final RegistryObject<Block> DIAMOND_PANEL = registerBlock("diamond_panel",
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK)));
+        public static final RegistryObject<Block> EMERALD_PANEL = registerBlock("emerald_panel",
+                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.EMERALD_BLOCK)));
+        public static final RegistryObject<Block> GOLD_PANEL = registerBlock("gold_panel",
+                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK)));
+        public static final RegistryObject<Block> IRON_PANEL = registerBlock("iron_panel",
+                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+        public static final RegistryObject<Block> NETHERITE_PANEL = registerBlock("netherite_panel",
+                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)));
 
 
         private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

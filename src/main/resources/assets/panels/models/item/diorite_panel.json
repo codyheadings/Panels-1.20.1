@@ -1,3 +1,7 @@
 {
-  "parent": "panels:block/diorite_panel_wall_item"
+  "parent": "panels:block/panel_item",
+  "textures": {
+    "face": "panels:block/diorite_panel",
+    "edge": "panels:block/diorite_panel"
+  }
 }

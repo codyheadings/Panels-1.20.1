@@ -1,3 +1,7 @@
 {
-  "parent": "panels:block/quartz_brick_panel_wall_item"
+  "parent": "panels:block/panel_item",
+  "textures": {
+    "face": "panels:block/quartz_brick_panel",
+    "edge": "panels:block/quartz_brick_panel"
+  }
 }

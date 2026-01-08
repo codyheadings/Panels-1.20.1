@@ -1,3 +1,7 @@
 {
-  "parent": "panels:block/mossy_cobblestone_panel_wall_item"
+  "parent": "panels:block/panel_item",
+  "textures": {
+    "face": "panels:block/mossy_cobblestone_panel",
+    "edge": "panels:block/mossy_cobblestone_panel"
+  }
 }

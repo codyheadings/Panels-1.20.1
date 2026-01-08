@@ -51,11 +51,12 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.AMETHYST_PANEL.get());
                         pOutput.accept(ModBlocks.COAL_PANEL.get());
                         pOutput.accept(ModBlocks.DIAMOND_PANEL.get());
-//                        pOutput.accept(ModBlocks.EMERALD_PANEL.get());
-//                        pOutput.accept(ModBlocks.GOLD_PANEL.get());
-//                        pOutput.accept(ModBlocks.IRON_PANEL.get());
+                        pOutput.accept(ModBlocks.EMERALD_PANEL.get());
+                        pOutput.accept(ModBlocks.GOLD_PANEL.get());
+                        pOutput.accept(ModBlocks.IRON_PANEL.get());
 //                        pOutput.accept(ModBlocks.LAPIS_PANEL.get());
-//                        pOutput.accept(ModBlocks.NETHERITE_PANEL.get());
+//                        pOutput.accept(ModBlocks.REDSTONE_PANEL.get());
+                        pOutput.accept(ModBlocks.NETHERITE_PANEL.get());
 
                     })
                     .build());

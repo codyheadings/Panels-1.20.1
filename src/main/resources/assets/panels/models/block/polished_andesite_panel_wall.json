@@ -1,0 +1,7 @@
+{
+  "parent": "panels:block/panel_wall",
+  "textures": {
+    "face": "panels:block/polished_andesite_panel",
+    "edge": "panels:block/polished_andesite_panel"
+  }
+}

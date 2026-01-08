@@ -1,0 +1,7 @@
+{
+  "parent": "panels:block/panel_wall",
+  "textures": {
+    "face": "panels:block/gold_panel",
+    "edge": "panels:block/gold_panel"
+  }
+}

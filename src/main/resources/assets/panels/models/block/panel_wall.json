@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "face": "#face",
+    "edge": "#edge",
+    "particle": "#face"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 3],
+      "faces": {
+        "north": { "texture": "#face" },
+        "south": { "texture": "#face" },
+        "east":  { "texture": "#edge" },
+        "west":  { "texture": "#edge" },
+        "up":    { "texture": "#edge" },
+        "down":  { "texture": "#edge" }
+      }
+    }
+  ]
+}

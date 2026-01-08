@@ -1,21 +1,7 @@
 {
-  "parent": "minecraft:block/block",
+  "parent": "panels:block/panel_floor",
   "textures": {
-    "all": "panels:block/stone_brick_panel",
-    "particle": "panels:block/stone_brick_panel"
-  },
-  "elements": [
-    {
-      "from": [0, 0, 0],
-      "to": [16, 3, 16],
-      "faces": {
-        "north": { "texture": "#all" },
-        "south": { "texture": "#all" },
-        "east":  { "texture": "#all" },
-        "west":  { "texture": "#all" },
-        "up":    { "texture": "#all" },
-        "down":  { "texture": "#all" }
-      }
-    }
-  ]
+    "face": "panels:block/stone_brick_panel",
+    "edge": "panels:block/stone_brick_panel"
+  }
 }

@@ -1,3 +1,7 @@
 {
-  "parent": "panels:block/calcite_panel_wall_item"
+  "parent": "panels:block/panel_item",
+  "textures": {
+    "face": "panels:block/calcite_panel",
+    "edge": "panels:block/calcite_panel"
+  }
 }

@@ -1,3 +1,7 @@
 {
-  "parent": "panels:block/diamond_panel_wall_item"
+  "parent": "panels:block/panel_item",
+  "textures": {
+    "face": "panels:block/diamond_panel",
+    "edge": "panels:block/diamond_panel"
+  }
 }

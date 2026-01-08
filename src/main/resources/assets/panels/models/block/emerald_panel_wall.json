@@ -1,0 +1,7 @@
+{
+  "parent": "panels:block/panel_wall",
+  "textures": {
+    "face": "panels:block/emerald_panel",
+    "edge": "panels:block/emerald_panel"
+  }
+}

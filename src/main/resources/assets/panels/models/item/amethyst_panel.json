@@ -1,3 +1,7 @@
 {
-  "parent": "panels:block/amethyst_panel_wall_item"
+  "parent": "panels:block/panel_item",
+  "textures": {
+    "face": "panels:block/amethyst_panel",
+    "edge": "panels:block/amethyst_panel"
+  }
 }

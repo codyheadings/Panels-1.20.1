@@ -1,0 +1,7 @@
+{
+  "parent": "panels:block/panel_ceiling",
+  "textures": {
+    "face": "panels:block/iron_panel",
+    "edge": "panels:block/iron_panel"
+  }
+}

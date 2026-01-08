@@ -1,0 +1,7 @@
+{
+  "parent": "panels:block/panel_wall",
+  "textures": {
+    "face": "panels:block/granite_panel",
+    "edge": "panels:block/granite_panel"
+  }
+}
