@@ -45,14 +45,15 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.MOSSY_STONE_BRICK_PANEL.get());
                         pOutput.accept(ModBlocks.SMOOTH_STONE_PANEL.get());
                         pOutput.accept(ModBlocks.TUFF_PANEL.get());
-//                        pOutput.accept(ModBlocks.QUARTZ_PANEL.get());
-//                        pOutput.accept(ModBlocks.QUARTZ_BRICK_PANEL.get());
+                        pOutput.accept(ModBlocks.QUARTZ_PANEL.get());
+                        pOutput.accept(ModBlocks.QUARTZ_BRICK_PANEL.get());
                         // Ore Blocks:
-//                        pOutput.accept(ModBlocks.AMETHYST_PANEL.get());
-//                        pOutput.accept(ModBlocks.COAL_PANEL.get());
-//                        pOutput.accept(ModBlocks.DIAMOND_PANEL.get());
+                        pOutput.accept(ModBlocks.AMETHYST_PANEL.get());
+                        pOutput.accept(ModBlocks.COAL_PANEL.get());
+                        pOutput.accept(ModBlocks.DIAMOND_PANEL.get());
 //                        pOutput.accept(ModBlocks.EMERALD_PANEL.get());
 //                        pOutput.accept(ModBlocks.GOLD_PANEL.get());
+//                        pOutput.accept(ModBlocks.IRON_PANEL.get());
 //                        pOutput.accept(ModBlocks.LAPIS_PANEL.get());
 //                        pOutput.accept(ModBlocks.NETHERITE_PANEL.get());
 

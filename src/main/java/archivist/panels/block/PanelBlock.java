@@ -5,16 +5,16 @@ import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SimpleWaterloggedBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.level.block.state.properties.AttachFace;
-import net.minecraft.world.level.block.state.properties.BlockStateProperties;
-import net.minecraft.world.level.block.state.properties.DirectionProperty;
-import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.block.state.properties.*;
+import net.minecraft.world.level.material.FluidState;
+import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-public class PanelBlock extends Block {
+public class PanelBlock extends Block implements SimpleWaterloggedBlock {
     public static final EnumProperty<AttachFace> FACE =
             BlockStateProperties.ATTACH_FACE;
     public static final DirectionProperty FACING =
@@ -38,38 +38,44 @@ public class PanelBlock extends Block {
     private static final VoxelShape WEST_SHAPE =
             Block.box(0, 0, 0, 3, 16, 16);
 
+    public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
     public PanelBlock(Properties properties) {
         super(properties);
         this.registerDefaultState(this.stateDefinition.any()
                 .setValue(FACE, AttachFace.WALL)
-                .setValue(FACING, Direction.NORTH));
+                .setValue(FACING, Direction.NORTH)
+                .setValue(WATERLOGGED, Boolean.FALSE));
     }
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-        builder.add(FACE, FACING);
+        builder.add(FACE, FACING, WATERLOGGED);
     }
 
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
         Direction clickedFace = context.getClickedFace();
+        FluidState fluidstate = context.getLevel().getFluidState(context.getClickedPos());
 
         if (clickedFace == Direction.UP) {
             return this.defaultBlockState()
                     .setValue(FACE, AttachFace.FLOOR)
-                    .setValue(FACING, context.getHorizontalDirection().getOpposite());
+                    .setValue(FACING, context.getHorizontalDirection())
+                    .setValue(WATERLOGGED, fluidstate.getType() == Fluids.WATER);
         }
 
         if (clickedFace == Direction.DOWN) {
             return this.defaultBlockState()
                     .setValue(FACE, AttachFace.CEILING)
-                    .setValue(FACING, context.getHorizontalDirection().getOpposite());
+                    .setValue(FACING, context.getHorizontalDirection())
+                    .setValue(WATERLOGGED, fluidstate.getType() == Fluids.WATER);
         }
 
         return this.defaultBlockState()
                 .setValue(FACE, AttachFace.WALL)
-                .setValue(FACING, clickedFace.getOpposite());
+                .setValue(FACING, clickedFace.getOpposite())
+                .setValue(WATERLOGGED, fluidstate.getType() == Fluids.WATER);
     }
 
     @Override
@@ -94,5 +100,9 @@ public class PanelBlock extends Block {
     @Override
     public boolean isCollisionShapeFullBlock(BlockState state, BlockGetter level, BlockPos pos) {
         return false;
+    }
+
+    public FluidState getFluidState(BlockState context) {
+        return context.getValue(WATERLOGGED) ? Fluids.WATER.getSource(false) : super.getFluidState(context);
     }
 }
