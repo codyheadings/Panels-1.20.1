@@ -1,0 +1,7 @@
+{
+  "parent": "panels:block/panel_wall",
+  "textures": {
+    "face": "panels:block/redstone_panel",
+    "edge": "panels:block/redstone_panel"
+  }
+}

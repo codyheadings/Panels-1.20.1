@@ -35,7 +35,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.POLISHED_DIORITE_PANEL.get());
                         pOutput.accept(ModBlocks.DRIPSTONE_PANEL.get());
                         pOutput.accept(ModBlocks.ENDSTONE_PANEL.get());
-//                        pOutput.accept(ModBlocks.ENDSTONE_BRICK_PANEL.get());
+                        pOutput.accept(ModBlocks.ENDSTONE_BRICK_PANEL.get());
                         pOutput.accept(ModBlocks.GRANITE_PANEL.get());
                         pOutput.accept(ModBlocks.POLISHED_GRANITE_PANEL.get());
                         pOutput.accept(ModBlocks.SANDSTONE_PANEL.get());
@@ -54,8 +54,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.EMERALD_PANEL.get());
                         pOutput.accept(ModBlocks.GOLD_PANEL.get());
                         pOutput.accept(ModBlocks.IRON_PANEL.get());
-//                        pOutput.accept(ModBlocks.LAPIS_PANEL.get());
-//                        pOutput.accept(ModBlocks.REDSTONE_PANEL.get());
+                        pOutput.accept(ModBlocks.LAPIS_PANEL.get());
+                        pOutput.accept(ModBlocks.REDSTONE_PANEL.get());
                         pOutput.accept(ModBlocks.NETHERITE_PANEL.get());
 
                     })

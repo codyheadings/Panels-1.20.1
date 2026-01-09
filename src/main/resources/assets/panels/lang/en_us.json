@@ -12,6 +12,8 @@
   "block.panels.gold_panel": "Gold Panel",
   "block.panels.iron_panel": "Iron Panel",
   "block.panels.netherite_panel": "Netherite Panel",
+  "block.panels.redstone_panel": "Redstone Panel",
+  "block.panels.lapis_panel": "Lapis Panel",
   "block.panels.polished_granite_panel": "Polished Granite Panel",
   "block.panels.granite_panel": "Granite Panel",
   "block.panels.polished_andesite_panel": "Polished Andesite Panel",
@@ -27,6 +29,7 @@
   "block.panels.calcite_panel": "Calcite Panel",
   "block.panels.dripstone_panel": "Dripstone Panel",
   "block.panels.endstone_panel": "End Stone Panel",
+  "block.panels.endstone_brick_panel": "End Stone Brick Panel",
   "block.panels.quartz_panel": "Quartz Panel",
   "block.panels.quartz_brick_panel": "Quartz Brick Panel",
 

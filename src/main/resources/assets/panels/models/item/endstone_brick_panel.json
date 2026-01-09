@@ -1,0 +1,7 @@
+{
+  "parent": "panels:block/panel_item",
+  "textures": {
+    "face": "panels:block/endstone_brick_panel",
+    "edge": "panels:block/endstone_brick_panel"
+  }
+}

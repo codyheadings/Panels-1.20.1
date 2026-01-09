@@ -61,6 +61,8 @@ import java.util.function.Supplier;
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK)));
         public static final RegistryObject<Block> ENDSTONE_PANEL = registerBlock("endstone_panel",
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)));
+        public static final RegistryObject<Block> ENDSTONE_BRICK_PANEL = registerBlock("endstone_brick_panel",
+                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE_BRICKS)));
         public static final RegistryObject<Block> QUARTZ_PANEL = registerBlock("quartz_panel",
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK)));
         public static final RegistryObject<Block> QUARTZ_BRICK_PANEL = registerBlock("quartz_brick_panel",
@@ -79,6 +81,10 @@ import java.util.function.Supplier;
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
         public static final RegistryObject<Block> NETHERITE_PANEL = registerBlock("netherite_panel",
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)));
+        public static final RegistryObject<Block> REDSTONE_PANEL = registerBlock("redstone_panel",
+                () -> new PoweredPanelBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_BLOCK)));
+        public static final RegistryObject<Block> LAPIS_PANEL = registerBlock("lapis_panel",
+                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.LAPIS_BLOCK)));
 
 
         private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

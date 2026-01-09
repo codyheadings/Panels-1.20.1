@@ -1,0 +1,7 @@
+{
+  "parent": "panels:block/panel_ceiling",
+  "textures": {
+    "face": "panels:block/lapis_panel",
+    "edge": "panels:block/lapis_panel"
+  }
+}
