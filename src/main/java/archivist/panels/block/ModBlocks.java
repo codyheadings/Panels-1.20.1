@@ -21,7 +21,7 @@ import java.util.function.Supplier;
 
         public static final RegistryObject<Block> ANDESITE_PANEL = registerBlock("andesite_panel",
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)));
-        public static final RegistryObject<Block> BASALT_PANEL = registerBlock("basalt_panel",
+        public static final RegistryObject<Block> SMOOTH_BASALT_PANEL = registerBlock("smooth_basalt_panel",
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_BASALT)));
         public static final RegistryObject<Block> DEEPSLATE_PANEL = registerBlock("deepslate_panel",
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE)));

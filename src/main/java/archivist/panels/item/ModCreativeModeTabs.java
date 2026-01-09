@@ -21,7 +21,9 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.ANDESITE_PANEL.get());
                         pOutput.accept(ModBlocks.POLISHED_ANDESITE_PANEL.get());
-                        pOutput.accept(ModBlocks.BASALT_PANEL.get());
+//                        pOutput.accept(ModBlocks.BASALT_PANEL.get());
+//                        pOutput.accept(ModBlocks.POLISHED_BASALT_PANEL.get());
+                        pOutput.accept(ModBlocks.SMOOTH_BASALT_PANEL.get());
 //                        pOutput.accept(ModBlocks.BLACKSTONE_PANEL.get());
 //                        pOutput.accept(ModBlocks.BLACKSTONE_BRICK_PANEL.get());
 //                        pOutput.accept(ModBlocks.POLISHED_BLACKSTONE_PANEL.get());

@@ -1,7 +1,7 @@
 {
   "parent": "panels:block/panel_wall",
   "textures": {
-    "face": "panels:block/andesite_panel",
-    "edge": "panels:block/andesite_panel"
+    "face": "panels:block/basalt_panel",
+    "edge": "panels:block/basalt_panel"
   }
 }
