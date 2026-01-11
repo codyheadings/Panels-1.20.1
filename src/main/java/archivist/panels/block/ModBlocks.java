@@ -94,9 +94,9 @@ import java.util.function.Supplier;
         public static final RegistryObject<Block> BLACKSTONE_PANEL = registerBlock("blackstone_panel",
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE)));
         public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICK_PANEL = registerBlock("polished_blackstone_brick_panel",
-                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE)));
+                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_BLACKSTONE_BRICKS)));
         public static final RegistryObject<Block> POLISHED_BLACKSTONE_PANEL = registerBlock("polished_blackstone_panel",
-                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE)));
+                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_BLACKSTONE)));
 
 
         private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
