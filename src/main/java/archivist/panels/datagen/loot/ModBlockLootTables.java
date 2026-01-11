@@ -19,6 +19,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     protected void generate() {
         this.dropSelf(ModBlocks.AMETHYST_PANEL.get());
         this.dropSelf(ModBlocks.ANDESITE_PANEL.get());
+        this.dropSelf(ModBlocks.BASALT_PANEL.get());
+        this.dropSelf(ModBlocks.POLISHED_BASALT_PANEL.get());
         this.dropSelf(ModBlocks.BLACKSTONE_PANEL.get());
         this.dropSelf(ModBlocks.POLISHED_BLACKSTONE_BRICK_PANEL.get());
         this.dropSelf(ModBlocks.POLISHED_BLACKSTONE_PANEL.get());

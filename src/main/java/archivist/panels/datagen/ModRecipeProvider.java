@@ -22,6 +22,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
         panelRecipe(pWriter, ModBlocks.AMETHYST_PANEL.get(), Blocks.AMETHYST_BLOCK);
         panelRecipe(pWriter, ModBlocks.ANDESITE_PANEL.get(), Blocks.ANDESITE);
+        panelRecipe(pWriter, ModBlocks.BASALT_PANEL.get(), Blocks.BASALT);
+        panelRecipe(pWriter, ModBlocks.POLISHED_BASALT_PANEL.get(), Blocks.POLISHED_BASALT);
+        panelRecipeStonecutter(pWriter, ModBlocks.POLISHED_BASALT_PANEL.get(), Blocks.BASALT);
         panelRecipe(pWriter, ModBlocks.BLACKSTONE_PANEL.get(), Blocks.BLACKSTONE);
         panelRecipeStonecutter(pWriter, ModBlocks.POLISHED_BLACKSTONE_PANEL.get(), Blocks.BLACKSTONE);
         panelRecipeStonecutter(pWriter, ModBlocks.POLISHED_BLACKSTONE_BRICK_PANEL.get(), Blocks.BLACKSTONE);
@@ -67,6 +70,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         panelRecipe(pWriter, ModBlocks.REDSTONE_PANEL.get(), Blocks.REDSTONE_BLOCK);
         panelRecipe(pWriter, ModBlocks.SANDSTONE_PANEL.get(), Blocks.SANDSTONE);
         panelRecipe(pWriter, ModBlocks.SMOOTH_BASALT_PANEL.get(), Blocks.SMOOTH_BASALT);
+        panelRecipeStonecutter(pWriter, ModBlocks.SMOOTH_BASALT_PANEL.get(), Blocks.BASALT);
         panelRecipe(pWriter, ModBlocks.SMOOTH_STONE_PANEL.get(), Blocks.SMOOTH_STONE);
         panelRecipe(pWriter, ModBlocks.STONE_BRICK_PANEL.get(), Blocks.STONE_BRICKS);
         panelRecipeStonecutter(pWriter, ModBlocks.STONE_BRICK_PANEL.get(), Blocks.STONE);

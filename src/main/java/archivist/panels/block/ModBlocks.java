@@ -23,6 +23,10 @@ import java.util.function.Supplier;
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)));
         public static final RegistryObject<Block> SMOOTH_BASALT_PANEL = registerBlock("smooth_basalt_panel",
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_BASALT)));
+        public static final RegistryObject<Block> BASALT_PANEL = registerBlock("basalt_panel",
+                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.BASALT)));
+        public static final RegistryObject<Block> POLISHED_BASALT_PANEL = registerBlock("polished_basalt_panel",
+                () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_BASALT)));
         public static final RegistryObject<Block> DEEPSLATE_PANEL = registerBlock("deepslate_panel",
                 () -> new PanelBlock(BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE)));
         public static final RegistryObject<Block> DEEPSLATE_BRICK_PANEL = registerBlock("deepslate_brick_panel",
