@@ -24,14 +24,14 @@ public class ModCreativeModeTabs {
 //                        pOutput.accept(ModBlocks.BASALT_PANEL.get());
 //                        pOutput.accept(ModBlocks.POLISHED_BASALT_PANEL.get());
                         pOutput.accept(ModBlocks.SMOOTH_BASALT_PANEL.get());
-//                        pOutput.accept(ModBlocks.BLACKSTONE_PANEL.get());
-//                        pOutput.accept(ModBlocks.BLACKSTONE_BRICK_PANEL.get());
-//                        pOutput.accept(ModBlocks.POLISHED_BLACKSTONE_PANEL.get());
+                        pOutput.accept(ModBlocks.BLACKSTONE_PANEL.get());
+                        pOutput.accept(ModBlocks.POLISHED_BLACKSTONE_BRICK_PANEL.get());
+                        pOutput.accept(ModBlocks.POLISHED_BLACKSTONE_PANEL.get());
                         pOutput.accept(ModBlocks.CALCITE_PANEL.get());
                         pOutput.accept(ModBlocks.COBBLESTONE_PANEL.get());
                         pOutput.accept(ModBlocks.MOSSY_COBBLESTONE_PANEL.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_PANEL.get());
-//                        pOutput.accept(ModBlocks.DEEPSLATE_BRICK_PANEL.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_BRICK_PANEL.get());
                         pOutput.accept(ModBlocks.POLISHED_DEEPSLATE_PANEL.get());
                         pOutput.accept(ModBlocks.DIORITE_PANEL.get());
                         pOutput.accept(ModBlocks.POLISHED_DIORITE_PANEL.get());

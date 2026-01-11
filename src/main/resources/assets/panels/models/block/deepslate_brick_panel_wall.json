@@ -1,0 +1,7 @@
+{
+  "parent": "panels:block/panel_wall",
+  "textures": {
+    "face": "panels:block/deepslate_brick_panel",
+    "edge": "panels:block/deepslate_brick_panel"
+  }
+}

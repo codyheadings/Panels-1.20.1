@@ -1,0 +1,7 @@
+{
+  "parent": "panels:block/panel_floor",
+  "textures": {
+    "face": "panels:block/blackstone_panel",
+    "edge": "panels:block/blackstone_panel"
+  }
+}

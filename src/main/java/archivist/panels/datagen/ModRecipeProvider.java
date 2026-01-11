@@ -22,10 +22,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
         panelRecipe(pWriter, ModBlocks.AMETHYST_PANEL.get(), Blocks.AMETHYST_BLOCK);
         panelRecipe(pWriter, ModBlocks.ANDESITE_PANEL.get(), Blocks.ANDESITE);
+        panelRecipe(pWriter, ModBlocks.BLACKSTONE_PANEL.get(), Blocks.BLACKSTONE);
+        panelRecipeStonecutter(pWriter, ModBlocks.POLISHED_BLACKSTONE_PANEL.get(), Blocks.BLACKSTONE);
+        panelRecipeStonecutter(pWriter, ModBlocks.POLISHED_BLACKSTONE_BRICK_PANEL.get(), Blocks.BLACKSTONE);
+        panelRecipeStonecutter(pWriter, ModBlocks.POLISHED_BLACKSTONE_BRICK_PANEL.get(), Blocks.POLISHED_BLACKSTONE);
+        panelRecipe(pWriter, ModBlocks.POLISHED_BLACKSTONE_PANEL.get(), Blocks.POLISHED_BLACKSTONE);
+        panelRecipe(pWriter, ModBlocks.POLISHED_BLACKSTONE_BRICK_PANEL.get(), Blocks.POLISHED_BLACKSTONE_BRICKS);
         panelRecipe(pWriter, ModBlocks.CALCITE_PANEL.get(), Blocks.CALCITE);
         panelRecipe(pWriter, ModBlocks.COAL_PANEL.get(), Blocks.COAL_BLOCK);
         panelRecipe(pWriter, ModBlocks.COBBLESTONE_PANEL.get(), Blocks.COBBLESTONE);
         panelRecipe(pWriter, ModBlocks.DEEPSLATE_PANEL.get(), Blocks.COBBLED_DEEPSLATE);
+        panelRecipe(pWriter, ModBlocks.DEEPSLATE_BRICK_PANEL.get(), Blocks.DEEPSLATE_BRICKS);
+        panelRecipeStonecutter(pWriter, ModBlocks.DEEPSLATE_BRICK_PANEL.get(), Blocks.DEEPSLATE);
+        panelRecipeStonecutter(pWriter, ModBlocks.DEEPSLATE_BRICK_PANEL.get(), Blocks.COBBLED_DEEPSLATE);
         panelRecipeStonecutter(pWriter, ModBlocks.DEEPSLATE_PANEL.get(), Blocks.DEEPSLATE);
         panelRecipe(pWriter, ModBlocks.DIAMOND_PANEL.get(), Blocks.DIAMOND_BLOCK);
         panelRecipe(pWriter, ModBlocks.DIORITE_PANEL.get(), Blocks.DIORITE);
