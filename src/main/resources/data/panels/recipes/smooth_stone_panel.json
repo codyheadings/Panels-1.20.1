@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "#  ",
+    "#  "
+  ],
+  "result": {
+    "count": 3,
+    "item": "panels:smooth_stone_panel"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:amethyst_block"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "#  ",
+    "#  "
+  ],
+  "result": {
+    "count": 3,
+    "item": "panels:amethyst_panel"
+  },
+  "show_notification": true
+}

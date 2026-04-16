@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:polished_granite"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "#  ",
+    "#  "
+  ],
+  "result": {
+    "count": 3,
+    "item": "panels:polished_granite_panel"
+  },
+  "show_notification": true
+}
